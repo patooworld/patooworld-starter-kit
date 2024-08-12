@@ -1,5 +1,0 @@
-appservices pull --remote=atolog-pcxrm
-mv ATOLOG/* . && rm -r ATOLOG
-git add .
-git commit
-git push origin master
