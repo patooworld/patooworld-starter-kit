@@ -51,10 +51,10 @@ export default async function middleware(req: NextRequest) {
     );
   }
 
-  // special case for `vercel.pub` domain
-  if (hostname === "vercel.pub") {
+  // special case for `atolog.com` domain
+  if (hostname === "atolog.com") {
     return NextResponse.redirect(
-      "https://app.atolog.com/login",
+      "https://app.atolog.com/login"
     );
   }
 
